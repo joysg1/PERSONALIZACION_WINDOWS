@@ -1,1 +1,54 @@
+++ Pasos para crear ISO CUSTOM DE WINDOWS 10/11
 
+- Instalar todo el software que querramos en el windows, app recomendada para hacerlo automatico: https://ninite.com/
+
+- Tener partición de de data creada (equivalente a C en tamaño)
+
+- Ejecutar en cmd (administrador):  %windir%\system32\sysprep\sysprep.exe /audit /reboot
+sysprep
+
+- El equipo se reiniciará
+
+- Eliminar cuentas que no sean de administrador
+
+- Bootear con la ISO y seleccionar la opcion de reparar
+
+- Seleccionar reparar problemas
+
+- Determinar la letra de la instalacion del windows y de la particion de datos.
+Ejemplo de ejecucion
+c: 
+dir
+<particion del sistema operativo>
+
+d:
+dir
+<particion de data>
+
+x:
+<volver a la ruta de la iso>
+
+- Ejecutar el siguiente comando:
+dism /capture-image /imagefile:D:\install.wim /capturedir:C:\ /Name:windows
+
+- Presionar enter y esperar que el proceso termine 
+
+- Teclear exit y dar clic en continue 
+
+- Ir a la particion de data y verificar que install.win este
+
+- Bajar e instalar el programa anyburn https://www.anyburn.com/
+
+- En anyburn seleccionar la opcion edit image file
+
+- seleccionar la iso 
+
+- eliminar el install.wim de la carpeta sources 
+
+- agregar el install.wim custom 
+
+- seleccionar next y darle nombre a la iso 
+
+- crear la iso y probarla
+
+- Video de referencia: https://www.youtube.com/watch?v=RRUmTxOX1KE
