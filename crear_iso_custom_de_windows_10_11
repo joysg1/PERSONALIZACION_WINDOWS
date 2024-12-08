@@ -32,7 +32,7 @@ dir
 x:
 <volver a la ruta de la iso>
 
-listar todos los volumenes con: listvol
+listar todos los volumenes con: list vol
 
 - Ejecutar el siguiente comando:
 dism /capture-image /imagefile:D:\install.wim /capturedir:C:\ /Name:windows
