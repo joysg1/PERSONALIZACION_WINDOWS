@@ -1,1 +1,10 @@
+- Una vez llegamos a la página en la que nos pide conectarnos a una red, usaremos el atajo de teclado Shift + F10 para abrir una consola de CMD. Y, dentro de ella, ejecutaremos el siguiente comando:
+oobe/bypassnro
+
+- El ordenador se reiniciará automáticamente, y tendremos que empezar de nuevo la configuración inicial del sistema. la diferencia es que, ahora, cuando lleguemos al apartado de conexión a Internet, 
+veremos la opción de «No tengo Internet» en la parte inferior. 
+Y, al hacer clic en ella, podremos continuar sin conexión y, lo más importante, sin crear una Cuenta Microsoft.
+
+- Referencia: https://www.softzone.es/windows/como-se-hace/instala-windows-11-home-internet-cuenta-microsoft/
+
 
