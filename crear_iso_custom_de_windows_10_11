@@ -9,6 +9,8 @@ sysprep
 
 - El equipo se reiniciará
 
+- Ejecutar sysprep si no se hace automáticamente
+
 - Eliminar cuentas que no sean de administrador
 
 - Bootear con la ISO y seleccionar la opcion de reparar
