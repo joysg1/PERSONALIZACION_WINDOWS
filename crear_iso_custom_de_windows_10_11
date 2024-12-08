@@ -9,9 +9,11 @@ sysprep
 
 - El equipo se reiniciará
 
-- Ejecutar sysprep si no se hace automáticamente
+- Ejecutar sysprep (dejar la opcion de auditoria y reiniciar).
 
 - Eliminar cuentas que no sean de administrador
+
+- Ejecutar sysprep nuevamente (dejar las opciones OOBE, generalize y shutdown)
 
 - Bootear con la ISO y seleccionar la opcion de reparar
 
@@ -29,6 +31,8 @@ dir
 
 x:
 <volver a la ruta de la iso>
+
+listar todos los volumenes con: listvol
 
 - Ejecutar el siguiente comando:
 dism /capture-image /imagefile:D:\install.wim /capturedir:C:\ /Name:windows
