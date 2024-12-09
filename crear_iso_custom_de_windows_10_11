@@ -39,6 +39,10 @@ listar todos los volumenes con: diskpart y luego list vol
 - Ejecutar el siguiente comando:
 dism /capture-image /imagefile:D:\install.wim /capturedir:C:\ /Name:windows
 
+- Tambien es equivalente el siguiente comando:
+imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
+
+
 - Presionar enter y esperar que el proceso termine 
 
 - Teclear exit y dar clic en continue 
