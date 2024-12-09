@@ -64,3 +64,8 @@ imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 - crear la iso y probarla
 
 - Video de referencia: https://www.youtube.com/watch?v=RRUmTxOX1KE
+
+- Nota: tras las pruebas se noto que el tamaño de la iso generada suele ser muy grande
+(proporcionalmente al número de programas instalados) por ende a largo plazo 
+este procedimiento no es tan viable ya que necesitaría una usb muy grande y tiempos
+de carga altos para instalar desde una iso tan grande. 
