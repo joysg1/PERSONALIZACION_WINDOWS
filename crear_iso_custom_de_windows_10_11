@@ -7,6 +7,8 @@
 - Ejecutar en cmd (administrador):  %windir%\system32\sysprep\sysprep.exe /audit /reboot
 sysprep
 
+--- Nota: cuando ejecutamos sysprep debemos tener deshabilitado el update y no tener internet
+
 - El equipo se reiniciará
 
 - Ejecutar sysprep (dejar la opcion de auditoria y reiniciar).
