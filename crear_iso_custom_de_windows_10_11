@@ -72,3 +72,7 @@ de carga altos para instalar desde una iso tan grande.
 
 - Nota: se notaron múltiples errores al realizar el procedimiento desde virtualbox, el proceso se está llevando a 
 cabo desde una instalación local de windows 10 para notar si existen cambios. 
+
+- Nota: al llevar el proceso en una instalación física de windows 10 (LTSB) el procedimiento tuvo éxito, más algunas licencias 
+como la del propio windows y del office como de aplicativos, no se trasladan al instalar la iso resultante. Sí se observaron 
+ajustes trasladados, tales como: favoritos de los navegadores, ajustes del windows, etc. 
