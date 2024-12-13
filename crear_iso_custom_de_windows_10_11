@@ -82,3 +82,6 @@ ajustes trasladados, tales como: favoritos de los navegadores, ajustes del windo
 - Nota: se esta realizando la prueba con la ISO de Windows 11 haciendo sysprep (modo auditoria) desde que se 
 inicia el Windows recien instalado. El proceso tuvo exito de forma parcial, la iso modificada generada con la 
 iso oficial no bootea, se hara la prueba con la iso custom (TEU).
+
+- Nota: el procedimiento ha tenido exito usando la iso custom (TEU) como base. Ahora se realizaran mas pruebas instalando mas 
+cantidad de software. 
