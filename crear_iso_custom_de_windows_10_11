@@ -83,10 +83,10 @@ ajustes trasladados, tales como: favoritos de los navegadores, ajustes del windo
 inicia el Windows recien instalado. El proceso tuvo exito de forma parcial, la iso modificada generada con la 
 iso oficial no bootea, se hara la prueba con la iso custom (TEU).
 
-- Nota: el procedimiento ha tenido exito usando la iso custom (TEU) como base. Ahora se realizaran mas pruebas instalando mas 
-cantidad de software. 
+- Nota: el procedimiento ha tenido éxito usando la iso custom (TEU) como base. Ahora se realizarán más pruebas 
+instalando más cantidad de software. 
 
-- Nota: tras instalar el software con ninite (instalador automatico) y ejecutar sysprep nos aparecen errores ligados a 
-que sysprep no puede continuar debido a que existen errores detectando software que no se ha instalado correctamente
-a todos los usuarios, eso nos lleva a inferir que todo el software que instalemos debe tener marcada la opcion de 
-instalar para todos los usuarios. 
+- Nota: tras instalar el software con ninite (instalador automático) y ejecutar sysprep nos aparecen errores 
+ligados a que sysprep no puede continuar debido a que existen errores detectando software que no se ha instalado 
+correctamente a todos los usuarios, eso nos lleva a inferir que todo el software que instalemos debe tener 
+marcada la opción de instalar para todos los usuarios. 
