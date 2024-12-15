@@ -90,3 +90,5 @@ instalando más cantidad de software.
 ligados a que sysprep no puede continuar debido a que existen errores detectando software que no se ha instalado 
 correctamente a todos los usuarios, eso nos lleva a inferir que todo el software que instalemos debe tener 
 marcada la opción de instalar para todos los usuarios. 
+
+- Nota: debemos intentar realizar el procedimiento usando como base la ISO original más reciente de Windows 11.
