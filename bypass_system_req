@@ -1,8 +1,8 @@
 ++ Pasos para saltar la comprobación en ISO de Windows 11 24H2:
 
--- Shift F10 Al cargar el menu de la ISO
+--- Shift F10 Al cargar el menu de la ISO
 
--- Se abrira cmd teclear regedit y presionar enter
+--- Se abrira cmd teclear regedit y presionar enter
 
 --- Ir a la siguiente ruta:
 HKEY_LOCAL_MACHINE ---> SYSTEM ---> SETUP
@@ -18,19 +18,19 @@ BypassCPUCheck
 --- Crear dentro valor DWORD de 32 bits con el nombre
 BypassRAMCheck
 
----- Crear dentro valor DWORD de 32 bits con el nombre 
+--- Crear dentro valor DWORD de 32 bits con el nombre 
 BypassSecureBootCheck
 
----- Cambiar el valor de cada uno a 1 (Hexadecimal)
+--- Cambiar el valor de cada uno a 1 (Hexadecimal)
 
----- Salir de cmd con exit
+--- Salir de cmd con exit
 
----- Intentar nuevamente la instalacion sin reiniciar
+--- Intentar nuevamente la instalacion sin reiniciar
 
----- Si aparece  el tema de la cuenta online abrir nuevamente cmd con Shift F10 y teclear el comando oobe\bypassnro
+--- Si aparece  el tema de la cuenta online abrir nuevamente cmd con Shift F10 y teclear el comando oobe\bypassnro
 
----- Presionar enter
+--- Presionar enter
 
----- El equipo procedera a reiniciarse
+--- El equipo procedera a reiniciarse
 
----- Relizar la creacion de los usuarios locales
+--- Relizar la creacion de los usuarios locales
