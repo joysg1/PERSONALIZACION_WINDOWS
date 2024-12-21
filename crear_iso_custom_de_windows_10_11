@@ -110,4 +110,7 @@ Get-AppxPackage -AllUsers *Microsoft.Copilot*
 
 Remove-AppxPackage -Package Microsoft.Copilot_0.4.2.0_neutral__8wekyb3d8bbwe -AllUsers
 
+--- Nota: si el error continua, debemos seguir eliminando paquetes siguiendo
+la sintaxis y tomando el cuenta el paquete indicado segun los logs
+
 
