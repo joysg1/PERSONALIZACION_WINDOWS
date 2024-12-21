@@ -101,3 +101,13 @@ soluciones.
 ++ TINY CORE BUILDER: https://github.com/ntdevlabs/tiny11builder
 
 
+++ ¿Como eliminar el error de sysprep en la iso 24H2?
+
+-- Ejecutar en prowershell los siguientes comandos despues de poner en auditoria el sistema:
+Debemos recordar que el sistema no debe estar conectado a internet
+
+Get-AppxPackage -AllUsers *Microsoft.Copilot*
+
+Remove-AppxPackage -Package Microsoft.Copilot_0.4.2.0_neutral__8wekyb3d8bbwe -AllUsers
+
+
