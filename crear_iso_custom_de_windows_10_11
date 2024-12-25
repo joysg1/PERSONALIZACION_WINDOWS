@@ -111,5 +111,10 @@ Get-AppxPackage -AllUsers *Microsoft.Copilot*
 Remove-AppxPackage -Package Microsoft.Copilot_0.4.2.0_neutral__8wekyb3d8bbwe -AllUsers
 
 --- Nota: si el error continua, debemos seguir eliminando paquetes siguiendo
-la sintaxis y tomando el cuenta el paquete indicado según los logs
+la sintaxis y tomando el cuenta el paquete indicado según los logs.
+
+--- Nota: el procedimiento fue exitoso usando como base dos isos 24H2, una de un
+TEU y otra normal, por ende podemos concluir que los errores anteriormente 
+encontrados no tenían su origen en la ISO, sino en la falta de aplicación
+del procedimiento encontrado (eliminación de paquetes conflictivos).
 
