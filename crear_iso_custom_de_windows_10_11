@@ -119,3 +119,6 @@ TEU y otra normal, por ende podemos concluir que los errores anteriormente
 encontrados no tenían su origen en la ISO, sino en la falta de aplicación
 del procedimiento encontrado (eliminación de paquetes conflictivos).
 
+--- Nota: debemos de realizar pruebas adicionales, usando una cantidad de programas mayor
+y la iso 24H2. 
+
