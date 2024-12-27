@@ -122,9 +122,9 @@ del procedimiento encontrado (eliminación de paquetes conflictivos).
 --- Nota: debemos de realizar pruebas adicionales, usando una cantidad de programas mayor
 y la iso 24H2. 
 
---- Nota: Tras realizar las pruebas adicionales, se ha validado que el procedimiento 
+--- Nota: tras realizar las pruebas adicionales, se ha validado que el procedimiento 
 va a mostrar más errores, pero siempre vinculados a paquetes específicos, por ende
-la solucion esta en eliminar uno por uno los paquetes conflictivos y eliminar el archivo de
+la solución está en eliminar uno por uno los paquetes conflictivos y eliminar el archivo de
 los logs tras cada eliminación por comando en PowerShell.
 ++ Sintaxis general del comando: Remove-AppxPackage <nombre_paquete> -AllUsers
 ++ Debemos recordar que el nombre del paquete aparece en los logs de sysprep.
