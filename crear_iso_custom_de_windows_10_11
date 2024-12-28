@@ -129,3 +129,8 @@ los logs tras cada eliminación por comando en PowerShell.
 ++ Sintaxis general del comando: Remove-AppxPackage <nombre_paquete> -AllUsers
 ++ Debemos recordar que el nombre del paquete aparece en los logs de sysprep.
 
+--- Nota: también es importante señalar que, usando la iso original el procedimiento
+falla al probar la iso en máquina virtual tras realizar el procedimiento de modificación de los 
+valores del registro para saltar las verificaciones de CPU, RAM y TPM.
+Por ende es recomendable usar la ISO custom como base. 
+
