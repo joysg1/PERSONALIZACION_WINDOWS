@@ -134,9 +134,11 @@ falla al probar la iso en máquina virtual tras realizar el procedimiento de mod
 valores del registro para saltar las verificaciones de CPU, RAM y TPM.
 Por ende es recomendable usar la ISO custom como base. 
 
---- Nota: Debemos recordar que el procedimiento tiende ha fallar con la ISO original y debemos
-de usar la ISO custom. No obstante hay programas que fallan al abrirse luego de instalar windows, 
+--- Nota: Debemos recordar que el procedimiento tiende a fallar con la ISO original y debemos
+de usar la ISO custom. No obstante, hay programas que fallan al abrirse luego de instalar windows, 
 tales programas son: jdownloader, math expert calculus assistant
-A pesar de esto podemos decir que el procedimiento es exitoso. Tambien debemos indicar que algunos programas no
-crean el acceso directo mas si se busca en la ruta de instalacion del windows el programa si abre. 
+
+A pesar de esto, podemos decir que el procedimiento es exitoso. También debemos indicar 
+que algunos programas no crean el acceso directo, pero si se busca en la ruta de 
+instalacion del windows el programa sí abre. 
 
