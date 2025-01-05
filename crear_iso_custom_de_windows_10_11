@@ -66,7 +66,7 @@ imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 - Video de referencia: https://www.youtube.com/watch?v=RRUmTxOX1KE
 
 --- Nota: ¿Cómo saber las letras de las unidades?
-mediante el comando dispart y luego list volume
+mediante el comando diskpart y luego list volume
 
 --- Nota: tras las pruebas se notó que el tamaño de la iso generada suele ser muy grande
 (proporcionalmente, al número de programas instalados) por ende a largo plazo 
