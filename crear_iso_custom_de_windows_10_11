@@ -2,7 +2,7 @@
 
 - Instalar todo el software que querramos en el windows, app recomendada para hacerlo automatico: https://ninite.com/
 
-- Tener partición de de data creada (equivalente a C en tamaño)
+- Tener partición de data creada (equivalente a C en tamaño)
 
 - Ejecutar en cmd (administrador):  %windir%\system32\sysprep\sysprep.exe /audit /reboot
 sysprep
