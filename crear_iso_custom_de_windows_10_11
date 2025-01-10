@@ -145,5 +145,8 @@ tales programas son: jdownloader, math expert calculus assistant
 que algunos programas no crean el acceso directo, pero si se busca en la ruta de 
 instalacion del windows el programa puede abrirse. 
 
---- Nota: Realizar el proceso con la version 23H2 ha resultado ser más estable. 
+--- Nota: Realizar el proceso con la version 23H2 ha resultado ser más estable.
+
+--- Nota: Debemos recordar que la ISO custom trae los usuarios como también los archivos
+que se coloquen en C. 
 
