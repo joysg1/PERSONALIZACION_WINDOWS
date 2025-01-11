@@ -1,0 +1,11 @@
+Para habilitar la actualizacion 24H2 debemos seguir los siguientes pasos:
+--- Windows + R
+--- gpedit.msc
+--- Computer Configuration
+--- Windows Components
+--- Windows Update
+--- Manage updates offered from Windows Update
+--- Select the target Feauture Update version
+--- Colocar en los campos lo siguiente: 
+--- Windows
+--- 24H2
