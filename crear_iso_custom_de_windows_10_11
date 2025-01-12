@@ -153,3 +153,6 @@ que se coloquen en C.
 --- Nota: Debemos recordar realizar el procedimiento de tratar de actualizar desde la version 23H2 a la 24H2 y 
 generar otra ISO como también incluir mas software y el paquete de idioma español. 
 
+--- Nota: El procedimiento de tratar de actualizar desde la versión 23H2 a 24H2 no fue exitoso se
+realizó una instalación limpia usando una iso modificada de la versión 24H2.
+
