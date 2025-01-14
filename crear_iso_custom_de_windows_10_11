@@ -156,3 +156,7 @@ generar otra ISO como también incluir mas software y el paquete de idioma espa�
 --- Nota: El procedimiento de tratar de actualizar desde la versión 23H2 a 24H2 no fue exitoso se
 realizó una instalación limpia usando una iso modificada de la versión 24H2.
 
+--- Nota: El procedimiento de actualizar desde la versión 23H2 a 24H2 ha sido exitoso
+tras realizar el procedimiento desde gpedit.msc (ver nota referente). 
+
+--- Nota: 
