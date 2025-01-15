@@ -161,3 +161,5 @@ tras realizar el procedimiento desde gpedit.msc (ver nota referente).
 
 --- Nota: Adicionalmente, se pudo generar la ISO usando sysprep en una instalación
 24H2.
+
+--- Nota: Actualmente ya no usaremos la versión 24H2.
