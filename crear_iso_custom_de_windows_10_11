@@ -145,13 +145,13 @@ tales programas son: jdownloader, math expert calculus assistant
 que algunos programas no crean el acceso directo, pero si se busca en la ruta de 
 instalacion del windows el programa puede abrirse. 
 
---- Nota: Realizar el proceso con la version 23H2 ha resultado ser más estable.
+--- Nota: Realizar el proceso con la version 23H2 resulta ser más estable.
 
 --- Nota: Debemos recordar que la ISO custom trae los usuarios como también los archivos
 que se coloquen en C. 
 
 --- Nota: Debemos recordar realizar el procedimiento de tratar de actualizar desde la version 23H2 a la 24H2 y 
-generar otra ISO como también incluir mas software y el paquete de idioma español. 
+generar otra ISO como también incluir más software y el paquete de idioma español. 
 
 --- Nota: El procedimiento de tratar de actualizar desde la versión 23H2 a 24H2 no fue exitoso se
 realizó una instalación limpia usando una iso modificada de la versión 24H2.
