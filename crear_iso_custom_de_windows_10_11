@@ -182,6 +182,8 @@ la actualización del aplicativo. Esto se realiza con la intención de impedir e
 Ejecutando en la ruta windows\system32\sysprep el siguiente comando:
 sysprep.exe /oobe /generalize /shutdown
 
+--- Nota: desde hirens se pueden ejecutar los comandos de dism y generar el install.wim sin problemas
+
 
 
 
