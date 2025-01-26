@@ -184,6 +184,8 @@ sysprep.exe /oobe /generalize /shutdown
 
 --- Nota: desde hirens se pueden ejecutar los comandos de dism y generar el install.wim sin problemas
 
+--- Nota: Es recomendable bootear hirens usando la opción wimboot (ventoy).
+
 
 
 
