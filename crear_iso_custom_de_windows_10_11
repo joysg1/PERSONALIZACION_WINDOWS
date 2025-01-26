@@ -178,6 +178,10 @@ la actualización del aplicativo. Esto se realiza con la intención de impedir e
 
 --- Nota: El procedimiento de sysprep ha resultado ser exitoso tomando en cuenta las actualizaciones del sistema.
 
+++ Pasos para accder al modo oobe en caso de que la interfaz grafica no funcione
+Ejecutando en la ruta windows\system32\sysprep el siguiente comando:
+sysprep.exe /oobe /generalize /shutdown
+
 
 
 
