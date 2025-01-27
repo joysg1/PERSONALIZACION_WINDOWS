@@ -186,6 +186,8 @@ sysprep.exe /oobe /generalize /shutdown
 
 --- Nota: Es recomendable bootear hirens usando la opción wimboot (ventoy).
 
+--- Nota: Es recomendable cambiar los ajustes de resolución de ventoy. 
+
 
 
 
