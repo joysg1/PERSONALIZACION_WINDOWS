@@ -188,6 +188,9 @@ sysprep.exe /oobe /generalize /shutdown
 
 --- Nota: Es recomendable cambiar los ajustes de resolución de ventoy. 
 
+--- Nota: Se ha comprobado que los ajustes del sistema operativo y los marcadores se guardan en el usuario asociado a la generación de
+la ISO (Windows 11 23H2).
+
 
 
 
