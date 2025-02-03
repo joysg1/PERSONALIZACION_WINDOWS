@@ -191,6 +191,8 @@ sysprep.exe /oobe /generalize /shutdown
 --- Nota: Se ha comprobado que los ajustes del sistema operativo y los marcadores se guardan en el usuario asociado a la generación de
 la ISO (Windows 11 23H2).
 
+--- Nota: Es recomendable realizar una ISO cada vez que la cantidad de actualizaciones sea muy alta.
+
 
 
 
