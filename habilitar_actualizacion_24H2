@@ -24,6 +24,8 @@ Comandos utiles para forzar las actualizaciones (powershell):
 --- Get-PackageProvider -Name NuGet
 --- Install-Module PSWindowsUpdate -Force -SkipPublisherCheck
 
+++ Nota: es recomendable no instalar Windows 11 24H2 desde una unidad booteable, sino dejar que el proceso se realice de llegarse el caso desde windows update. 
+
 
 
 
