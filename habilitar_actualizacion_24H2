@@ -9,3 +9,8 @@ Para habilitar la actualizacion 24H2 debemos seguir los siguientes pasos:
 --- Colocar en los campos lo siguiente: 
 --- Windows
 --- 24H2
+
+Comandos utiles para forzar las actualizaciones (powershell):
+--- UsoClient StartScan
+--- UsoClient StartDownload
+--- UsoClient StartInstall
