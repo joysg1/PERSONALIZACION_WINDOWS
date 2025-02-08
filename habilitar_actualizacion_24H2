@@ -16,5 +16,6 @@ Comandos utiles para forzar las actualizaciones (powershell):
 --- UsoClient StartInstall
 --- Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 --- Import-Module PSWindowsUpdate
+--- Get-Command -Module PSWindowsUpdate
 
 
