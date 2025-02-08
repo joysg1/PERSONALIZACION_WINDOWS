@@ -16,6 +16,7 @@ sysprep
 - Eliminar cuentas que no sean de administrador
 
 - Ejecutar sysprep nuevamente (dejar las opciones OOBE, generalize y shutdown)
+--- Comando: sysprep /oobe /generalize /shutdown (Recordar estar en la ruta de sysprep para ejecutarlo en cmd)
 
 - Bootear con la ISO y seleccionar la opcion de reparar
 
