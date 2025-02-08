@@ -18,5 +18,7 @@ Comandos utiles para forzar las actualizaciones (powershell):
 --- Import-Module PSWindowsUpdate
 --- Get-Command -Module PSWindowsUpdate
 --- Get-WindowsUpdate
+--- Install-WindowsUpdate -KBArticleID KB5046617 -AcceptAll -AutoReboot
+
 
 
