@@ -20,6 +20,8 @@ Comandos utiles para forzar las actualizaciones (powershell):
 --- Get-WindowsUpdate
 --- Install-WindowsUpdate -KBArticleID KB5046617 -AcceptAll -AutoReboot
 --- Get-HotFix -Id KB5046617
+--- Install-PackageProvider -Name NuGet -Force -Scope AllUsers
+
 
 
 
