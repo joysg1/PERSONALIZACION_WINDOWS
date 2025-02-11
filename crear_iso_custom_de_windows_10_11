@@ -138,7 +138,7 @@ Por ende es recomendable usar la ISO custom como base.
 
 --- Nota: Debemos recordar que el procedimiento tiende a fallar con la ISO original y debemos
 de usar la ISO custom. No obstante, hay programas que fallan al abrirse luego de instalar windows, 
-tales programas son: jdownloader, math expert calculus assistant
+tales programas son: jdownloader, math expert calculus assistant.
 
 --- Nota: A pesar de lo anteriormente citado, podemos decir que el procedimiento es exitoso. También debemos indicar 
 que algunos programas no crean el acceso directo, pero si se busca en la ruta de 
