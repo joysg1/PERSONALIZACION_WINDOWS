@@ -70,9 +70,7 @@ imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 mediante el comando diskpart y luego list volume
 
 --- Nota: tras las pruebas se notó que el tamaño de la iso generada suele ser muy grande
-(proporcionalmente, al número de programas instalados) por ende a largo plazo 
-este procedimiento no es tan viable, ya que necesitaría una usb muy grande y tiempos
-de carga altos para instalar desde una iso tan grande. 
+(proporcionalmente, al número de programas instalados).
 
 --- Nota: se notaron múltiples errores al realizar el procedimiento desde virtualbox, el proceso se está llevando a 
 cabo desde una instalación local de windows 10 para notar si existen cambios. 
