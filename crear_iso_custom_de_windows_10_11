@@ -175,8 +175,6 @@ de la herramienta Driver Booster (incluida en la ISO Custom).
 --- Nota: Para utilizar la herramienta Driver Booster (incluida en la ISO Custom) debemos recordar desactivar el tema de 
 la actualización del aplicativo. Esto se realiza con la intención de impedir el mal funcionamiento del software. 
 
---- Nota: Debemos recordar realizar el procedimiento de generación de ISO con la versión 24H2 (una vez se encuentre más estable).
-
 --- Nota: El procedimiento de sysprep ha resultado ser exitoso tomando en cuenta las actualizaciones del sistema.
 
 ++ Pasos para accder al modo oobe en caso de que la interfaz grafica no funcione
