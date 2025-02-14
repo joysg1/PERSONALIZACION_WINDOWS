@@ -13,14 +13,14 @@ sysprep
 
 - Ejecutar sysprep (dejar la opcion de auditoria y reiniciar).
 
-- Eliminar cuentas que no sean de administrador
+- Eliminar cuentas que no sean de administrador.
 
-- Ejecutar sysprep nuevamente (dejar las opciones OOBE, generalize y shutdown)
---- Comando: sysprep /oobe /generalize /shutdown (Recordar estar en la ruta de sysprep para ejecutarlo en cmd)
+- Ejecutar sysprep nuevamente (dejar las opciones OOBE, generalize y shutdown).
+--- Comando: sysprep /oobe /generalize /shutdown (Recordar estar en la ruta de sysprep para ejecutarlo en cmd).
 
-- Bootear con la ISO y seleccionar la opcion de reparar
+- Bootear con la ISO y seleccionar la opcion de reparar.
 
-- Seleccionar reparar problemas
+- Seleccionar reparar problemas.
 
 - Determinar la letra de la instalacion del windows y de la particion de datos.
 Ejemplo de ejecucion
