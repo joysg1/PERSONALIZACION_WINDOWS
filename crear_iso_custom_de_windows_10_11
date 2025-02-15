@@ -100,10 +100,6 @@ soluciones.
 
 --- Nota: al final se tuvo que recurrir al uso de la ISO modificada para que el proceso fuera exitoso. 
 
-
-++ TINY CORE BUILDER: https://github.com/ntdevlabs/tiny11builder
-
-
 ++ Cómo eliminar el error de sysprep al tratar de entrar en modo OOBE?
 
 -- Ejecutar en prowershell los siguientes comandos despues de poner en auditoría el sistema:
