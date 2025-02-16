@@ -191,6 +191,8 @@ la ISO (Windows 11 23H2).
 --- Por el momento no es recomendable crear una ISO 24H2, ya que la versión al ser instalada
 por un medio USB tiende a generar problemas en el Windows Update. 
 
+--- Nota: probaremos extraer la ISO usando hardware mas reciente (Optiplex micro). 
+
 
 
 
