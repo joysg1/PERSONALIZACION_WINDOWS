@@ -193,6 +193,8 @@ por un medio USB tiende a generar problemas en el Windows Update.
 
 --- Nota: se debe colocar el equipo de prueba (optiplex) en modo uefi para que las isos nuevas puedan arrancar.
 
+--- Nota: por el momento es recomendable no actualizar a la version 24H2 y bajar los drivers de forma manual. 
+
 
 
 
