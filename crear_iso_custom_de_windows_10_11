@@ -198,7 +198,7 @@ por un medio USB tiende a generar problemas en el Windows Update.
 
 --- Nota: por el momento tampoco es recomendable crear una ISO custom de la version 24H2.
 
---- Nota: al crear la nueva ISO debemos procurar que no se fuerce la 24H2.
+--- Nota: al crear la nueva ISO debemos procurar que no se fuerce la 24H2 (gpedit.msc politicas del windows update). 
 
 
 
