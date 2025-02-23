@@ -17,6 +17,7 @@ sysprep
 
 - Ejecutar sysprep nuevamente (dejar las opciones OOBE, generalize y shutdown).
 --- Comando: sysprep /oobe /generalize /shutdown (Recordar estar en la ruta de sysprep para ejecutarlo en cmd).
+--- Nota: este comando es exclusivo de cmd, no funciona en powershell. 
 
 - Bootear con la ISO y seleccionar la opcion de reparar.
 
