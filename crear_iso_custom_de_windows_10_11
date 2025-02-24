@@ -45,7 +45,7 @@ dism /capture-image /imagefile:D:\install.wim /capturedir:C:\ /Name:windows
 imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 
 
-- Presionar enter y esperar que el proceso termine 
+- Presionar enter y esperar que el proceso termine.
 
 - Teclear exit y dar clic en continue 
 
