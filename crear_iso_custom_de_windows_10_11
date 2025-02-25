@@ -47,7 +47,7 @@ imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 
 - Presionar enter y esperar que el proceso termine.
 
-- Teclear exit y dar clic en continue 
+- Teclear exit y dar clic en continue.
 
 - Ir a la particion de data y verificar que install.win este
 
