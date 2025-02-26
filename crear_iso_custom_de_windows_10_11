@@ -201,6 +201,7 @@ por un medio USB tiende a generar problemas en el Windows Update.
 --- Nota: al crear la nueva ISO debemos procurar que no se fuerce la 24H2 (gpedit.msc politicas del windows update). 
 
 --- Nota: la ISO en su version 5 ha registrado un comportamiento excelente. 
+Por ende debemos mantener su estructura y solo actualizar. 
 
 
 
