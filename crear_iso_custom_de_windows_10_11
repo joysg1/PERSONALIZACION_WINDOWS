@@ -49,7 +49,7 @@ imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 
 - Teclear exit y dar clic en continue.
 
-- Ir a la particion de data y verificar que install.win este
+- Ir a la partición de data y verificar que install.win este
 
 - Bajar e instalar el programa anyburn https://www.anyburn.com/
 
