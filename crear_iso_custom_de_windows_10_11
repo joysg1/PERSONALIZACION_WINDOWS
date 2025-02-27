@@ -158,8 +158,6 @@ tras realizar el procedimiento desde gpedit.msc (ver nota referente).
 --- Nota: Adicionalmente, se pudo generar la ISO usando sysprep en una instalación
 24H2.
 
---- Nota: Actualmente ya no usaremos la versión 24H2.
-
 --- Nota: Se seguirá usando la versión 23H2, por ende usamos la ISO ya creada.
 
 --- Nota: Es importante recordar que la iso creada (23H2) soporta hardware antiguo.
