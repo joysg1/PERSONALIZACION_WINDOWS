@@ -57,13 +57,13 @@ imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 
 - seleccionar la iso 
 
-- eliminar el install.wim de la carpeta sources 
+- Eliminar el install.wim de la carpeta sources 
 
-- agregar el install.wim custom 
+- Agregar el install.wim custom 
 
-- seleccionar next y darle nombre a la iso 
+- Seleccionar next y darle nombre a la iso 
 
-- crear la iso y probarla
+- Crear la iso y probarla
 
 - Video de referencia: https://www.youtube.com/watch?v=RRUmTxOX1KE
 
