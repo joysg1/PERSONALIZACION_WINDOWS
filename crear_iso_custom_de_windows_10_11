@@ -212,7 +212,7 @@ Por ende debemos mantener su estructura y solo actualizar.
 --- Nota: El procedimiento con winhance no funcionó correctamente dado que el aplicativo altera el registro de windows. 
 
 --- Nota: Por el momento winhance se ha descartado como aplicativo a usar en esta y próximas ISOS, ya que hace alteraciones en el registro de Windows. 
-Ocasionando que el proceso de generación de la ISO falle. 
+ocasionando que el proceso de generación de la ISO falle. 
 
 
 
