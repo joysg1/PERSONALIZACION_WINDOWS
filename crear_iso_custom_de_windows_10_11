@@ -70,36 +70,36 @@ imagex /capture C: D:\Captura\install.wim "WindowsImage" /compress maximum
 --- Nota: ¿Cómo saber las letras de las unidades?
 mediante el comando diskpart y luego list volume
 
---- Nota: tras las pruebas se notó que el tamaño de la iso generada suele ser muy grande
+--- Nota: Tras las pruebas se notó que el tamaño de la iso generada suele ser muy grande
 (proporcionalmente, al número de programas instalados).
 
---- Nota: se notaron múltiples errores al realizar el procedimiento desde virtualbox, el proceso se está llevando a 
+--- Nota: Se notaron múltiples errores al realizar el procedimiento desde virtualbox, el proceso se está llevando a 
 cabo desde una instalación local de windows 10 para notar si existen cambios. 
 
---- Nota: al llevar el proceso en una instalación física de windows 10 (LTSB) el procedimiento tuvo éxito, más algunas licencias 
+--- Nota: Al llevar el proceso en una instalación física de windows 10 (LTSB) el procedimiento tuvo éxito, más algunas licencias 
 como la del propio windows y del office como de aplicativos, no se trasladan al instalar la iso resultante. Sí se observaron 
 ajustes trasladados, tales como: favoritos de los navegadores, ajustes del windows, etc. 
 
---- Nota: se llevarán a cabo las pruebas nuevamente con la ISO de Windows 11. 
+--- Nota: Se llevarán a cabo las pruebas nuevamente con la ISO de Windows 11. 
 
 --- Nota: se esta realizando la prueba con la ISO de Windows 11 haciendo sysprep (modo auditoria) desde que se 
 inicia el Windows recien instalado. El proceso tuvo exito de forma parcial, la iso modificada generada con la 
 iso oficial no bootea, se hara la prueba con la iso custom (TEU).
 
---- Nota: el procedimiento ha tenido éxito usando la iso custom (TEU) como base. Ahora se realizarán más pruebas 
+--- Nota: El procedimiento ha tenido éxito usando la iso custom (TEU) como base. Ahora se realizarán más pruebas 
 instalando más cantidad de software. 
 
---- Nota: tras instalar el software con ninite (instalador automático) y ejecutar sysprep nos aparecen errores 
+--- Nota: Tras instalar el software con ninite (instalador automático) y ejecutar sysprep nos aparecen errores 
 ligados a que sysprep no puede continuar debido a que existen errores detectando software que no se ha instalado 
 correctamente a todos los usuarios, eso nos lleva a inferir que todo el software que instalemos debe tener 
 marcada la opción de instalar para todos los usuarios. 
 
---- Nota: debemos intentar realizar el procedimiento usando como base la ISO original más reciente de Windows 11.
+--- Nota: Debemos intentar realizar el procedimiento usando como base la ISO original más reciente de Windows 11.
 
---- Nota: se ha deshabilitado el copilot a metodo de prueba en windows 11 como tambien las apps usando el tutorial de las
+--- Nota: Se ha deshabilitado el copilot a metodo de prueba en windows 11 como tambien las apps usando el tutorial de las
 soluciones.
 
---- Nota: al final se tuvo que recurrir al uso de la ISO modificada para que el proceso fuera exitoso. 
+--- Nota: Al final se tuvo que recurrir al uso de la ISO modificada para que el proceso fuera exitoso. 
 
 ++ Cómo eliminar el error de sysprep al tratar de entrar en modo OOBE?
 
@@ -110,25 +110,25 @@ Get-AppxPackage -AllUsers *Microsoft.Copilot*
 
 Remove-AppxPackage -Package Microsoft.Copilot_0.4.2.0_neutral__8wekyb3d8bbwe -AllUsers
 
---- Nota: si el error continua, debemos seguir eliminando paquetes siguiendo
+--- Nota: Si el error continua, debemos seguir eliminando paquetes siguiendo
 la sintaxis y tomando el cuenta el paquete indicado según los logs.
 
---- Nota: el procedimiento fue exitoso usando como base dos isos 24H2, una de un
+--- Nota: El procedimiento fue exitoso usando como base dos isos 24H2, una de un
 TEU y otra normal, por ende podemos concluir que los errores anteriormente 
 encontrados no tenían su origen en la ISO, sino en la falta de aplicación
 del procedimiento encontrado (eliminación de paquetes conflictivos).
 
---- Nota: debemos de realizar pruebas adicionales, usando una cantidad de programas mayor
+--- Nota: Debemos de realizar pruebas adicionales, usando una cantidad de programas mayor
 y la iso 24H2. 
 
---- Nota: tras realizar las pruebas adicionales, se ha validado que el procedimiento 
+--- Nota: Tras realizar las pruebas adicionales, se ha validado que el procedimiento 
 va a mostrar más errores, pero siempre vinculados a paquetes específicos, por ende
 la solución está en eliminar uno por uno los paquetes conflictivos y eliminar el archivo de
 los logs tras cada eliminación por comando en PowerShell.
 ++ Sintaxis general del comando: Remove-AppxPackage <nombre_paquete> -AllUsers
 ++ Debemos recordar que el nombre del paquete aparece en los logs de sysprep.
 
---- Nota: también es importante señalar que, usando la iso original el procedimiento
+--- Nota: También es importante señalar que, usando la iso original el procedimiento
 falla al probar la ISO en máquina virtual tras realizar el procedimiento de modificación de los 
 valores del registro para saltar las verificaciones de CPU, RAM y TPM.
 Por ende es recomendable usar la ISO custom como base. 
@@ -174,7 +174,7 @@ la actualización del aplicativo. Esto se realiza con la intención de impedir e
 Ejecutando en la ruta windows\system32\sysprep el siguiente comando:
 sysprep.exe /oobe /generalize /shutdown
 
---- Nota: desde hirens se pueden ejecutar los comandos de dism y generar el install.wim sin problemas.
+--- Nota: Desde hirens se pueden ejecutar los comandos de dism y generar el install.wim sin problemas.
 
 --- Nota: Es recomendable bootear hirens usando la opción wimboot (ventoy).
 
@@ -190,15 +190,15 @@ la ISO (Windows 11 23H2).
 --- Por el momento no es recomendable crear una ISO 24H2, ya que la versión al ser instalada
 por un medio USB tiende a generar problemas en el Windows Update. 
 
---- Nota: se debe colocar el equipo de prueba (optiplex) en modo uefi para que las isos nuevas puedan arrancar.
+--- Nota: Se debe colocar el equipo de prueba (optiplex) en modo uefi para que las isos nuevas puedan arrancar.
 
---- Nota: por el momento es recomendable no actualizar a la version 24H2 y bajar los drivers de forma manual. 
+--- Nota: Por el momento es recomendable no actualizar a la version 24H2 y bajar los drivers de forma manual. 
 
---- Nota: por el momento tampoco es recomendable crear una ISO custom de la version 24H2.
+--- Nota: Por el momento tampoco es recomendable crear una ISO custom de la version 24H2.
 
---- Nota: al crear la nueva ISO debemos procurar que no se fuerce la 24H2 (gpedit.msc politicas del windows update). 
+--- Nota: Al crear la nueva ISO debemos procurar que no se fuerce la 24H2 (gpedit.msc politicas del windows update). 
 
---- Nota: la ISO en su version 5 ha registrado un comportamiento excelente. 
+--- Nota: La ISO en su version 5 ha registrado un comportamiento excelente. 
 Por ende debemos mantener su estructura y solo actualizar. 
 
 --- Nota: Cambios menores se han hecho en la version 6 (actualizaciones).
