@@ -104,7 +104,7 @@ soluciones.
 ++ Cómo eliminar el error de sysprep al tratar de entrar en modo OOBE?
 
 -- Ejecutar en prowershell los siguientes comandos despues de poner en auditoría el sistema:
-Debemos recordar que el sistema no debe estar conectado a internet
+Debemos recordar que el sistema no debe estar conectado a internet.
 
 Get-AppxPackage -AllUsers *Microsoft.Copilot*
 
