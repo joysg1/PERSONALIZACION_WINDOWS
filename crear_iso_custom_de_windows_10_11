@@ -215,9 +215,7 @@ Por ende debemos mantener su estructura y solo actualizar.
 --- Nota: Por el momento winhance se ha descartado como aplicativo a usar en esta y próximas ISOS, ya que hace alteraciones en el registro de Windows. 
 ocasionando que el proceso de generación de la ISO falle. 
 
-
 --- Nota: Por el momento nos mantenemos en la versión 23H2 ya que la 24H2 aún no es estable. 
-
 
 --- Nota: Hasta el momento la ultima version de la ISO es excelente V8 (18 Marzo del 2025). 
 
