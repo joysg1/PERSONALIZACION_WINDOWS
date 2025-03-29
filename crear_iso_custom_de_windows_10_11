@@ -209,11 +209,13 @@ Por ende debemos mantener su estructura y solo actualizar.
 ++ Ninite: https://ninite.com/
 ++ Winhance: https://github.com/memstechtips/Winhance
 
+
 --- Nota: El procedimiento con winhance no funcionó correctamente dado que el aplicativo altera el registro de windows. 
 
 
 --- Nota: Por el momento winhance se ha descartado como aplicativo a usar en esta y próximas ISOS, ya que hace alteraciones en el registro de Windows. 
 ocasionando que el proceso de generación de la ISO falle. 
+
 
 --- Nota: Por el momento nos mantenemos en la versión 23H2 ya que la 24H2 aún no es estable. 
 
@@ -228,6 +230,8 @@ ocasionando que el proceso de generación de la ISO falle.
 
 
 --- Nota: Por el momento debemos ir actualizando a la 24H2, desde el Windows Update. 
+
+--- Nota: Debemos mantenernos como base de la ISO la versión 8, ya que la versión 9 nos marcó un error al instalar en un equipo.
 
 
 
