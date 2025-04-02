@@ -238,6 +238,10 @@ ocasionando que el proceso de generación de la ISO falle.
 --- Nota: Debemos mantener la descarga de actualizaciones hasta llegar a la 24H2, no usar la misma como base. 
 
 
+--- Nota: Debemos fijarnos como objetivo tratar de crear una ISO 24H2 siguiendo las directrices de este video:
+https://www.youtube.com/watch?feature=shared&v=nqY3IZYFRXA
+
+
 
 
 
