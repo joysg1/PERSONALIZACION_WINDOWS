@@ -232,9 +232,6 @@ ocasionando que el proceso de generación de la ISO falle.
 --- Nota: Por el momento debemos ir actualizando a la 24H2, desde el Windows Update. 
 
 
---- Nota: Debemos mantenernos como base de la ISO la versión 8, ya que la versión 9 nos marcó un error al instalar en un equipo.
-
-
 --- Nota: Debemos mantener la descarga de actualizaciones hasta llegar a la 24H2, no usar la misma como base. 
 
 
