@@ -238,6 +238,17 @@ ocasionando que el proceso de generación de la ISO falle.
 --- Nota: Debemos fijarnos como objetivo tratar de crear una ISO 24H2 siguiendo las directrices de este video:
 https://www.youtube.com/watch?feature=shared&v=nqY3IZYFRXA
 
+--- Comando utilizado para saltar a la version 24H2 (previmante debemos ubicarnos con cmd en la carpeta sources de la ISO 24H2):
+setupprep /product server
+
+--- Nota: este comando hace pensar que la ISO 24H2 es en realidad una instalacion de un Windows Server, la instalacion
+se realiza correctamente en hardware no soportado, es recomendable eliminar la carpeta windows.old que se crea tras
+instalar la actualizacion. 
+
+--- Tambien es una buena opcion tener un backup con clonezilla tras aplicar el proceso anteriormente citado en el video.
+
+
+
 
 
 
