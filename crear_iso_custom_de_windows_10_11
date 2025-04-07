@@ -247,11 +247,7 @@ instalar la actualizacion.
 
 --- Tambien es una buena opcion tener un backup con clonezilla tras aplicar el proceso anteriormente citado en el video.
 
---- Nota: La ISO 24H2 ha sido efectuada de forma exitosa aplicando mejoras en las politicas de actualizacion.
-
---- Nota: No obstante debemos tener una rama de creacion de ISOS 23H2 por si la 24H2 es inestable en algunos equipos. 
-
---- Nota: A continuacion procederemos a probar la ISO 24H2 creada. 
+--- Nota: La ISO 24H2 ha sido efectuada de forma exitosa aplicando mejoras en las politicas de actualización. 
 
 --- Nota: La instalación usando la ISO 24H2 fue todo un éxito, por ende se seguirá usando.
 
