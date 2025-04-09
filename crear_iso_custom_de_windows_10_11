@@ -245,8 +245,6 @@ setupprep /product server
 se realiza correctamente en hardware no soportado, es recomendable eliminar la carpeta windows.old que se crea tras
 instalar la actualizacion. 
 
---- Tambien es una buena opcion tener un backup con clonezilla tras aplicar el proceso anteriormente citado en el video.
-
 --- Nota: La ISO 24H2 ha sido efectuada de forma exitosa aplicando mejoras en las politicas de actualización. 
 
 --- Nota: La instalación usando la ISO 24H2 fue todo un éxito, por ende se seguirá usando.
