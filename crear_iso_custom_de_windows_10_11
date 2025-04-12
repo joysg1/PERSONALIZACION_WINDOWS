@@ -231,21 +231,28 @@ ocasionando que el proceso de generación de la ISO falle.
 
 --- Nota: Por el momento debemos ir actualizando a la 24H2, desde el Windows Update. 
 
+
 --- Nota: Debemos fijarnos como objetivo tratar de crear una ISO 24H2 siguiendo las directrices de este video:
 https://www.youtube.com/watch?feature=shared&v=nqY3IZYFRXA
 
+
 --- Comando utilizado para saltar a la version 24H2 (previmante debemos ubicarnos con cmd en la carpeta sources de la ISO 24H2):
 setupprep /product server
+
 
 --- Nota: este comando hace pensar que la ISO 24H2 es en realidad una instalacion de un Windows Server, la instalacion
 se realiza correctamente en hardware no soportado, es recomendable eliminar la carpeta windows.old que se crea tras
 instalar la actualizacion. 
 
+
 --- Nota: La ISO 24H2 ha sido efectuada de forma exitosa aplicando mejoras en las politicas de actualización. 
+
 
 --- Nota: La instalación usando la ISO 24H2 fue todo un éxito, por ende se seguirá usando.
 
+
 --- Nota: En este nueva ISO 24H2 se observó el cumplimiento de las políticas establecidas.
+
 
 --- Nota: Actualmente es recomendable instalar los drivers usando iobit para evitar problemas de rendimiento.
 
