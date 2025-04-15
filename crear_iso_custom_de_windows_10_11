@@ -261,6 +261,8 @@ kaspersky rescue disk.
 
 --- Nota: Tras este primer escaneo no se arrojaron amenazas solo un falso positivo. 
 
+--- Nota: Debemos plantearnos la posibilidad de crear una nueva ISO 24H2 partiendo de la 23H2 usando hardware mas reciente (optiplex mini).
+
 
 
 
