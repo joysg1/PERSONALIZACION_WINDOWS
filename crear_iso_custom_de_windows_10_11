@@ -261,7 +261,6 @@ kaspersky rescue disk.
 
 --- Nota: Tras este primer escaneo no se arrojaron amenazas solo un falso positivo. 
 
---- Nota: Debemos plantearnos la posibilidad de crear una nueva ISO 24H2 partiendo de la 23H2 usando hardware mas reciente (optiplex mini).
 
 --- Nota: A raiz de los sucesos entre el office 2016 y la actualizacion 24H2 es necesario seguir creando ISOS 23H2 ajustando la politica
 para que no se baje la version 24H2.
